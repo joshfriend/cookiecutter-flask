@@ -33,6 +33,9 @@ Then run the following commands to bootstrap your environment.
 Deployment
 ----------
 
+Set your preferred Python version in the ``runtime.txt`` file.
+See the `heroku devcenter <https://devcenter.heroku.com/articles/python-runtimes#available-runtimes>`_ for a list of valid Python runtime options.
+
 In your production environment, make sure the ``{{cookiecutter.app_name|upper}}_ENV`` environment variable is set to ``"prod"``.
 
 
